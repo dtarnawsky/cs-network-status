@@ -1,0 +1,7 @@
+{
+  "name": "cs-network-status",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
