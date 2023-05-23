@@ -23,10 +23,11 @@ export class HomePage implements OnInit {
 
     });
     App.addListener('resume', async () => {
-      const status = await Network.getStatus();
-      this.ngZone.run(() => {
-        this.status = status.connectionType;
-      });
+      // You can uncomment this so that you get network status on resume with Android
+      // const status = await Network.getStatus();
+      // this.ngZone.run(() => {
+      //   this.status = status.connectionType;
+      // });
     });
   }
 
