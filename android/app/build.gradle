@@ -1,6 +1,7 @@
 apply plugin: 'com.android.application'
 
 android {
+    namespace "cs.network.status"
     compileSdkVersion rootProject.ext.compileSdkVersion
     defaultConfig {
         applicationId "cs.network.status"
